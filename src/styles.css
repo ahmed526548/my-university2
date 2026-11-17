@@ -92,3 +92,91 @@
 .owner-offer-footer button{background:#ff6b22;border:0;padding:15px 22px;font:inherit;font-size:11px;font-weight:900;cursor:pointer;white-space:nowrap}
 @media(max-width:800px){.pubg-owner-cta{grid-template-columns:1fr;padding:55px 20px;gap:28px}.owner-feature-grid{grid-template-columns:1fr 1fr}.owner-calculator{grid-template-columns:1fr;padding:22px;margin:45px 0}.owner-launch{grid-template-columns:1fr}.owner-offer-footer{align-items:flex-start;flex-direction:column}}
 @media(max-width:520px){.pubg-owner-points{grid-template-columns:1fr 1fr}.owner-offer-hero{padding:55px 20px}.owner-offer-wrap{padding:45px 15px}.owner-feature-grid{grid-template-columns:1fr}.owner-feature-grid p{min-height:0}.owner-calculator h2{font-size:25px}.owner-launch{padding:22px}.owner-offer-footer{padding:24px}.owner-offer-footer h2{font-size:23px}}
+
+
+/* ===== PUBG CHICKEN / ADMIN REDESIGN 2026 ===== */
+:root{--ui-bg:#f4f3f0;--ui-ink:#171717;--ui-muted:#77736e;--ui-line:#e8e4de;--ui-orange:#ff7029;--ui-dark:#111;--ui-card:#fff}
+body{background:var(--ui-bg);color:var(--ui-ink);font-family:Cairo,Arial,sans-serif}
+.app{background:var(--ui-bg);color:var(--ui-ink);min-height:100vh}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .sidebar{width:264px;background:#111;color:#f7f4ef;padding:25px 17px;border-left:1px solid #292929;box-shadow:-12px 0 35px #0000000a}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .brand{padding:5px 8px 24px;border-bottom:1px solid #ffffff18;gap:12px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .brand>span{width:44px;height:44px;border-radius:13px;background:var(--ui-orange);color:#111;font-size:26px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .brand b{font-size:16px;letter-spacing:.8px;color:#fff}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .brand small{color:#a7a19a;font-size:8px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .branch{background:#1d1d1d;border:1px solid #303030;border-radius:12px;margin:18px 0 20px;padding:13px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .branch b{color:#fff}.app:not(:has(.pubg-site)):not(:has(.storefront)) .branch small{color:#aaa}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .muted{color:#777;font-size:9px;letter-spacing:1px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .nav{color:#bcb7b0;border-radius:9px;padding:12px 13px;margin:4px 0;font-size:11px;transition:.18s}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .nav svg{color:#928b83}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .nav.active,.app:not(:has(.pubg-site)):not(:has(.storefront)) .nav:hover{background:#29231f;color:#fff;border-right:3px solid var(--ui-orange)}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .nav.active svg{color:var(--ui-orange)}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .nav em{background:var(--ui-orange);color:#111}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .side-bottom{background:linear-gradient(145deg,#28211d,#191919);border:1px solid #3a3029;border-radius:13px;padding:16px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .side-bottom b{color:#ff965f}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .side-bottom p,.app:not(:has(.pubg-site)):not(:has(.storefront)) .side-bottom small{color:#aaa}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) main{margin-right:264px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) main>header{height:72px;background:#fff;border-bottom:1px solid var(--ui-line);padding:0 34px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .crumb{font-size:11px;color:#918b84}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .crumb b{color:#222}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .online{background:#fff1e8;color:#c95217;padding:7px 11px;border-radius:30px;font-size:9px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .bell{width:34px;height:34px;border:1px solid var(--ui-line);border-radius:10px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .avatar{background:#191919;color:var(--ui-orange);width:36px;height:36px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .content{max-width:1600px;padding:34px 36px 65px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .page-head{align-items:center;margin-bottom:25px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .page-head small{color:#a29b93;font-size:10px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .page-head h1{font-size:29px;font-weight:900;letter-spacing:-.5px;margin:5px 0}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .page-head p{color:#817b74;font-size:11px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .primary{background:var(--ui-orange);color:#17110d;border-radius:8px;padding:11px 16px;font-weight:900;box-shadow:0 5px 12px #ff702922}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .primary:hover{background:#ff8a4d;transform:translateY(-1px)}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .secondary{background:#fff;border:1px solid #e6e1da;color:#3c3834;border-radius:8px;padding:10px 14px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero{background:radial-gradient(circle at 15% 50%,#ff702933,transparent 30%),linear-gradient(115deg,#151515,#26201c);border-radius:16px;padding:30px 32px;min-height:190px;box-shadow:0 12px 28px #21170e12}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero small{color:#ffad80}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero h2{font-size:25px;font-weight:900}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero p{color:#c5bdb5}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero button{background:var(--ui-orange);color:#17110d;border-radius:7px;padding:10px 14px;font-weight:900}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero-food{opacity:.3;filter:grayscale(1)}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .section-title h3{font-size:15px;font-weight:900}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .section-title span{color:#a19a92}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .stats{gap:14px;margin-bottom:20px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .stat,.app:not(:has(.pubg-site)):not(:has(.storefront)) .panel{border:1px solid #ebe6df;border-radius:13px;box-shadow:0 5px 18px #21170e06}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .stat{padding:18px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .stat svg{color:var(--ui-orange);background:#fff0e7;width:35px;height:35px;padding:8px;border-radius:10px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .stat strong{font-size:23px;font-weight:900;color:#211d19}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .stat p{color:#999188}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .columns{gap:16px;margin-bottom:16px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .panel{padding:20px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .panel-title{margin-bottom:17px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .panel-title h3{font-size:14px;font-weight:900}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .panel-title small{color:#999188}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) th{background:#f8f6f3;color:#8e877e;padding:13px 10px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) td{padding:13px 10px;border-bottom:1px solid #f0ede8}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .pill{border-radius:20px;padding:5px 10px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .toolbar{gap:14px;margin-bottom:18px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .search{border:1px solid #e8e2db;border-radius:9px;padding:11px 13px;min-width:270px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .search input{font-size:11px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .filters button{border-radius:20px;padding:8px 13px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .filters .chosen{background:#211d19;color:#ff9a64;border-color:#211d19}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .kcard,.app:not(:has(.pubg-site)):not(:has(.storefront)) .product{border:1px solid #e9e3dc;border-radius:13px;box-shadow:0 5px 16px #21170e08;padding:18px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .kcard h3{font-size:16px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .kcard button{margin-top:17px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .product>span{background:#fff1e8;border-radius:11px;padding:12px;width:max-content}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .product h3{font-size:14px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .product>b{color:#d85a1d}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .tables button{background:#fff;border:1px solid #e9e3dc;border-radius:12px;color:#28221e}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .tables button svg{color:var(--ui-orange)}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .tip{background:#fff4eb;border:1px solid #f5ddca;border-radius:13px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .modal-bg{background:#111b}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .modal{border-radius:16px;padding:24px;box-shadow:0 20px 60px #0003}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .modal input,.app:not(:has(.pubg-site)):not(:has(.storefront)) .modal select{border-radius:8px;padding:11px}
+.app:not(:has(.pubg-site)):not(:has(.storefront)) .toast{background:#171717;border:1px solid #3b332d;border-right:3px solid var(--ui-orange);border-radius:10px}
+@media(max-width:1050px){.app:not(:has(.pubg-site)):not(:has(.storefront)) .sidebar{width:230px}.app:not(:has(.pubg-site)):not(:has(.storefront)) main{margin-right:230px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .content{padding:25px 22px}}
+@media(max-width:720px){.app:not(:has(.pubg-site)):not(:has(.storefront)) .sidebar{width:270px}.app:not(:has(.pubg-site)):not(:has(.storefront)) main{margin:0}.app:not(:has(.pubg-site)):not(:has(.storefront)) main>header{height:62px;padding:0 14px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .content{padding:22px 14px 45px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .page-head h1{font-size:24px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero{padding:22px 19px;min-height:175px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .hero h2{font-size:19px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .stat{padding:13px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .stat strong{font-size:18px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .panel{padding:14px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .kitchen-grid,.app:not(:has(.pubg-site)):not(:has(.storefront)) .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.app:not(:has(.pubg-site)):not(:has(.storefront)) .search{min-width:0}.app:not(:has(.pubg-site)):not(:has(.storefront)) .filters{max-width:100%}}
+@media(max-width:390px){.app:not(:has(.pubg-site)):not(:has(.storefront)) .kitchen-grid,.app:not(:has(.pubg-site)):not(:has(.storefront)) .product-grid{grid-template-columns:1fr}.app:not(:has(.pubg-site)):not(:has(.storefront)) .actions{gap:6px}.app:not(:has(.pubg-site)):not(:has(.storefront)) .actions button{font-size:9px;padding:9px 8px}}
+/* Ensure the owner proposal and storefront share the same orange/charcoal identity */
+.owner-offer{font-family:Cairo,Arial,sans-serif}
+.owner-offer-hero{background:radial-gradient(ellipse at 80% 30%,#ff702933,transparent 42%),#111}
+.owner-offer-hero h2 em{color:#ff8b4b}
+.owner-feature-grid article{border-radius:12px;border-top:3px solid #ff7029;box-shadow:0 5px 18px #21170e08}
+.owner-calculator{border-radius:14px;background:#171717}
+.owner-calc-result{background:#ff7029;border-radius:10px}
+.owner-offer-footer button{background:#ff7029;border-radius:8px}
